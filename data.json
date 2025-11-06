@@ -1,31 +1,166 @@
 {
-  "menu": {
-    "text": "Вітаємо в Університеті ІТ та Менеджменту! 👋\n\nОбери розділ нижче:",
-    "buttons": [
-      ["📘 FAQ", "faq"],
-      ["🎓 Спеціальності", "specialties"],
-      ["📞 Контакти", "contacts"]
-    ]
+  "ua": {
+    "university_name": "Університет ІТ та Менеджменту",
+    "menu": {
+      "about": {
+        "title": "Про університет",
+        "text": "Університет ІТ та Менеджменту — це сучасний освітній заклад, орієнтований на підготовку фахівців у сфері інформаційних технологій, менеджменту та інновацій. Ми поєднуємо теорію та практику, створюємо умови для розвитку та надаємо студентам можливості для стажувань і кар’єрного росту.",
+        "image": "https://example.com/university_main_building.jpg"
+      },
+      "specialties": {
+        "title": "Спеціальності",
+        "list": [
+          {
+            "name": "Комп'ютерні науки",
+            "code": "122",
+            "description": "Підготовка фахівців у сфері розробки програмного забезпечення, штучного інтелекту та кібербезпеки."
+          },
+          {
+            "name": "Менеджмент",
+            "code": "073",
+            "description": "Навчання стратегічному управлінню, HR, маркетингу та сучасним бізнес-процесам."
+          }
+        ]
+      },
+      "how_to_apply": {
+        "title": "Як подати документи",
+        "text": "Подання документів здійснюється онлайн через електронний кабінет вступника або особисто у приймальній комісії.",
+        "image": ""
+      },
+      "required_docs": {
+        "title": "Перелік документів",
+        "text": "Для вступу необхідно підготувати: паспорт, ідентифікаційний код, атестат про повну загальну середню освіту, сертифікати НМТ/ЗНО (за наявності), фотокартки.",
+        "files": []
+      },
+      "contacts": {
+        "title": "Контакти",
+        "phone": "+38 (000) 000-00-00",
+        "email": "info@uitm.edu.ua",
+        "address": "м. Київ, вул. Прикладна, 12",
+        "map_url": "https://maps.google.com"
+      },
+      "payment": {
+        "title": "Реквізити",
+        "text": "Реквізити для оплати навчання можна отримати у бухгалтерії або на сайті університету.",
+        "file": ""
+      },
+      "schedule": {
+        "title": "Графік приймальної комісії",
+        "text": "Пн-Пт: 9:00 – 18:00, Сб: 10:00 – 14:00",
+        "image": "https://example.com/admission_schedule.png"
+      },
+      "links": {
+        "title": "Корисні посилання",
+        "items": [
+          {
+            "name": "Офіційний сайт",
+            "url": "https://university-site.ua/"
+          },
+          {
+            "name": "Освіта.UA",
+            "url": "https://osvita.ua/"
+          }
+        ]
+      },
+      "consultant": {
+        "title": "Звʼязатися з консультантом",
+        "username": "@university_help"
+      },
+      "faq": {
+        "title": "FAQ",
+        "items": [
+          {
+            "q": "Які документи потрібні для вступу?",
+            "a": "Паспорт, ІПН, атестат про освіту, фотокартки, за необхідності — результати НМТ/ЗНО."
+          },
+          {
+            "q": "Чи є гуртожиток?",
+            "a": "Так, університет надає місця у гуртожитку для іногородніх студентів."
+          }
+        ]
+      }
+    }
   },
-  "faq": {
-    "text": "📅 *Графік приймальної комісії:*\nПн–Пт 9:00–17:00\n\n📎 [Посилання на Освіта.UA](https://osvita.ua/vnz/)\n\n💬 Маєш питання? Натисни кнопку нижче!",
-    "buttons": [
-      ["💬 Зв’язатися з консультантом", "url:https://t.me/university_help"],
-      ["⬅️ Назад", "back_to_menu"]
-    ]
-  },
-  "specialties": {
-    "text": "🎓 *Основні спеціальності:*\n- Комп’ютерні науки 💻\n- Менеджмент 📊\n- Маркетинг 📈\n- Кібербезпека 🔐\n\nДетальніше на сайті університету 👇",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Example_of_IT_students.jpg/800px-Example_of_IT_students.jpg",
-    "buttons": [
-      ["🌐 Відвідати сайт", "url:https://www.example-university.edu"],
-      ["⬅️ Назад", "back_to_menu"]
-    ]
-  },
-  "contacts": {
-    "text": "📍 *Контакти університету:*\nм. Київ, вул. Академічна, 12\nТелефон: +380 44 123 45 67\nEmail: info@university.edu\n\nНаш Telegram-консультант: [@university_help](https://t.me/university_help)",
-    "buttons": [
-      ["⬅️ Назад", "back_to_menu"]
-    ]
+  "en": {
+    "university_name": "University of IT and Management",
+    "menu": {
+      "about": {
+        "title": "About the University",
+        "text": "The University of IT and Management is a modern educational institution focused on training specialists in IT, management, and innovative technologies.",
+        "image": "https://example.com/university_main_building.jpg"
+      },
+      "specialties": {
+        "title": "Specialties",
+        "list": [
+          {
+            "name": "Computer Science",
+            "code": "122",
+            "description": "Training IT professionals in software development, AI, and cybersecurity."
+          },
+          {
+            "name": "Management",
+            "code": "073",
+            "description": "Studies in strategic management, HR, marketing, and business processes."
+          }
+        ]
+      },
+      "how_to_apply": {
+        "title": "How to apply",
+        "text": "Applications can be submitted online via the applicant's electronic cabinet or directly to the admissions office.",
+        "image": ""
+      },
+      "required_docs": {
+        "title": "Required documents",
+        "text": "Passport, tax number, previous education certificate, photos, and standardized test results if available.",
+        "files": []
+      },
+      "contacts": {
+        "title": "Contacts",
+        "phone": "+38 (000) 000-00-00",
+        "email": "info@uitm.edu.ua",
+        "address": "Kyiv, Prykladna St. 12",
+        "map_url": "https://maps.google.com"
+      },
+      "payment": {
+        "title": "Payment details",
+        "text": "Payment details are available in the accounting office or on the website.",
+        "file": ""
+      },
+      "schedule": {
+        "title": "Admission schedule",
+        "text": "Mon-Fri: 9:00 – 18:00, Sat: 10:00 – 14:00",
+        "image": "https://example.com/admission_schedule.png"
+      },
+      "links": {
+        "title": "Useful links",
+        "items": [
+          {
+            "name": "Official website",
+            "url": "https://university-site.ua/"
+          },
+          {
+            "name": "Osvita.UA",
+            "url": "https://osvita.ua/"
+          }
+        ]
+      },
+      "consultant": {
+        "title": "Contact advisor",
+        "username": "@university_help"
+      },
+      "faq": {
+        "title": "FAQ",
+        "items": [
+          {
+            "q": "What documents are required?",
+            "a": "Passport, tax number, secondary education certificate, photos, and NMT/ZNO if available."
+          },
+          {
+            "q": "Is dormitory available?",
+            "a": "Yes, the university provides dormitory places for non-resident students."
+          }
+        ]
+      }
+    }
   }
 }
